@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>POO</title>
+</head>
+
+<body>
+    <main>
+        <div class="form-container">
+            <form action="" id="a">
+                <div class="fieldset">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div class="fieldset">
+                    <label for="idCard">Documento</label>
+                    <input type="text" name="idCard" id="idCard" required>
+                </div>
+                <div class="fieldset">
+                    <label for="date">Fecha </label>
+                    <input type="date" name="date" id="date" required>
+                </div>
+                <div class="fieldset">
+                    <label for="description">Descripción</label>
+                    <textarea name="description" id="description" cols="72" rows="10"></textarea>
+                </div>
+                <div class="fieldset">
+                    <input type="submit" value="Guardar">
+                </div>
+            </form>
+        </div>
+        <div class="table-container">
+            <table id="table">
+                <thead>
+                    <th>Nombre</th>
+                    <th>Documento</th>
+                    <th>Fecha</th>
+                    <th>Descripción</th>
+                </thead>
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
